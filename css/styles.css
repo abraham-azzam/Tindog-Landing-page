@@ -1,0 +1,212 @@
+@font-face{font-family:ProximaNova;
+    src:url(fonts/0d4ec08dc6b105c09ea2f98b104ee5be.woff2)
+    format("woff2"),url(fonts/700c6aabf7c76ee975ea9ecd1597fc5a.woff) format("woff");
+    font-display:fallback}
+
+@font-face{font-family:ProximaNova;
+    src:url(fonts/f9527cb231fbb96f8b847c6bb2577e73.woff2)format("woff2"),url(fonts/b4f7fae18f78776aecb7aecce2ee96fe.woff) format("woff");
+    font-weight:800;font-display:fallback}
+
+@font-face{font-family:ProximaNova;
+    src:url(fonts/4c112e110a336202365ba00324390d27.woff2) format("woff2"),url(fonts/d4b0fa776100b2a6d092630b50f2108e.woff) format("woff");
+    font-weight:600;font-style:normal;font-display:fallback}
+
+@font-face{font-family:ProximaNova;
+    src:url(fonts/84d9762503458c60562afc18868f900c.woff2) format("woff2"),url(fonts/928843c2f85d1df752f538207505d8b8.woff) format("woff");
+    font-weight:800;font-style:italic;font-display:fallback}
+
+@font-face{font-family:ProximaNova;
+    src:url(fonts/5b91b90ca9c385a6a0b2d51801fa0458.woff2) format("woff2"),url(fonts/9c8e0760bfc4eccefea167de6225d1a5.woff) 
+    format("woff");
+    font-weight:500;
+    font-style:normal;font-display:swap}
+
+body{
+    font-family: 'ProximaNova', sans-serif; line-height:1.3125;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;
+    font-smoothing:antialiased;text-rendering:optimizeLegibility;word-wrap:break-word;
+}    
+
+#title{
+    background-image: linear-gradient(to bottom right, #FF655B, #FD297B);
+    color: #fff;
+    /* position: relative;
+    z-index: 1; */
+    
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h3{
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navbar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Downlaod Button */
+
+.downlaod-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img{
+    transform: rotate(25deg);
+    /* position: relative; */
+    /* z-index: 2; */
+}
+
+/* Features Section */
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    /* margin-top: 10%; */
+}
+
+.features-box{
+    text-align: center;
+}
+
+.p-features{
+    padding: 5%;
+}
+
+.icon{
+    margin-bottom: 1rem;
+    background:-moz-linear-gradient(top, #FD297B 0%, #FF655B 100%); 
+    background: -webkit-linear-gradient(top, #FD297B 0%,#FF655B 100%); 
+    background: linear-gradient(to bottom, #FD297B 0%,#FF655B 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent
+}.icon:hover{
+    background:-moz-linear-gradient(top, #FF655B 0%, #FD297B 100%); 
+    background: -webkit-linear-gradient(top, #FF655B 0%,#FD297B 100%); 
+    background: linear-gradient(to bottom, #FF655B 0%,#FD297B 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent
+}
+
+/* Testimonials Section */
+.test-press{
+    background-image: linear-gradient(to bottom right, #FD297B, #FF655B);
+
+}
+#testimonials{
+    text-align: center;
+    color: #fff;
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+/* Press Section */
+
+#press{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+    filter:  brightness(0) invert(0);
+}.press-img:hover{
+    filter:  brightness(0) invert(1);
+
+}
+
+/* Carousel */
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+
+/* CTA */
+
+#cta{
+    background: linear-gradient(262deg, #FF6034, #fd267a);
+    text-align: center;
+    padding: 7% 20%;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+/* Footer Section */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-p{
+    font-weight: 800;
+}
+
+@media (max-width: 1028px) {
+    .title-img{
+        /* position: relative; */
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+
+    #features{
+        padding-top: 7%;
+
+    }
+
+    
+}
